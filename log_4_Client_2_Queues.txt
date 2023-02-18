@@ -1,0 +1,228 @@
+At time 0 :
+Current tasks to dispatch:
+(2,5,2)  (4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 1 :
+Current tasks to dispatch:
+(2,5,2)  (4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 2 :
+Current tasks to dispatch:
+(2,5,2)  (4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 3 :
+Current tasks to dispatch:
+(2,5,2)  (4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 4 :
+Current tasks to dispatch:
+(2,5,2)  (4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 5 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 {(2,5,2), waitingPeriod=2}
+Queue 2 is closed!
+
+At time 6 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 {(2,5,1), waitingPeriod=1}
+Queue 2 is closed!
+
+At time 7 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 8 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 9 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 10 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 11 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 12 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 13 :
+Current tasks to dispatch:
+(4,14,2)  (1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 14 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 {(4,14,2), waitingPeriod=2}
+Queue 2 is closed!
+
+At time 15 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 {(4,14,1), waitingPeriod=1}
+Queue 2 is closed!
+
+At time 16 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 17 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 18 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 19 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 20 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 21 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 22 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 23 :
+Current tasks to dispatch:
+(1,24,4)  (3,28,3)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+At time 24 :
+Current tasks to dispatch:
+(3,28,3)  
+Queue situation:
+Queue 1 {(1,24,4), waitingPeriod=4}
+Queue 2 is closed!
+
+At time 25 :
+Current tasks to dispatch:
+(3,28,3)  
+Queue situation:
+Queue 1 {(1,24,3), waitingPeriod=3}
+Queue 2 is closed!
+
+At time 26 :
+Current tasks to dispatch:
+(3,28,3)  
+Queue situation:
+Queue 1 {(1,24,2), waitingPeriod=2}
+Queue 2 is closed!
+
+At time 27 :
+Current tasks to dispatch:
+(3,28,3)  
+Queue situation:
+Queue 1 {(1,24,1), waitingPeriod=1}
+Queue 2 is closed!
+
+At time 28 :
+There are no more tasks to dispatch!
+Queue situation:
+Queue 1 {(3,28,3), waitingPeriod=3}
+Queue 2 is closed!
+
+At time 29 :
+There are no more tasks to dispatch!
+Queue situation:
+Queue 1 {(3,28,2), waitingPeriod=2}
+Queue 2 is closed!
+
+At time 30 :
+There are no more tasks to dispatch!
+Queue situation:
+Queue 1 {(3,28,1), waitingPeriod=1}
+Queue 2 is closed!
+
+At time 31 :
+There are no more tasks to dispatch!
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+
+Simulation is over! Exiting early...
+Queue 1 has an average waiting time of 0,688
+Queue 2 has an average waiting time of 0,000
+
+Average waiting time for the queues in total is 0,344
+
+Average service time for a task is: 2,750
+Peak hour for the simulation is time 24 with an average waiting time of 2,000 between all the queues

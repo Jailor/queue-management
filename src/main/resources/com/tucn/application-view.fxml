@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tucn.controller.AppController">
+   <bottom>
+      <VBox prefHeight="300.0" prefWidth="650.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="textArea" editable="false" prefHeight="270.0" prefWidth="200.0" />
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </bottom>
+   <center>
+      <VBox alignment="BOTTOM_CENTER" spacing="7.5">
+         <children>
+            <HBox prefHeight="162.0" prefWidth="650.0">
+               <children>
+                  <HBox prefHeight="162.0" prefWidth="309.0">
+                     <children>
+                        <VBox prefHeight="162.0" prefWidth="156.0" spacing="30.0">
+                           <children>
+                              <Label text="Simulation time: ">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Number of clients:">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Number of queues:">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox prefHeight="162.0" prefWidth="105.0" spacing="30.0">
+                           <children>
+                              <TextField fx:id="simulationTime" />
+                              <TextField fx:id="numberOfClients" />
+                              <TextField fx:id="numberOfQueues" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="162.0" prefWidth="324.0">
+                     <children>
+                        <VBox prefHeight="162.0" prefWidth="156.0" spacing="12.0">
+                           <children>
+                              <Label text="Min arrival time:">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Max arrival time:">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Min processing time:">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Max processing time:">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                        <VBox prefHeight="153.0" prefWidth="105.0" spacing="10.0">
+                           <children>
+                              <TextField fx:id="minArrivalTime" />
+                              <TextField fx:id="maxArrivalTime" />
+                              <TextField fx:id="minProcessingTime" />
+                              <TextField fx:id="maxProcessingTime" />
+                           </children>
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding></HBox>
+             <Button fx:id="startSimulationButton" alignment="CENTER" contentDisplay="CENTER" onAction="#onStartSimulation" text="Start Simulation">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="abortSimulationButton" mnemonicParsing="false" onAction="#onAbortSimulation" text="Abort Simulation" />
+            <Button mnemonicParsing="false" onAction="#onResetSimulation" text="Reset" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </center>
+</BorderPane>

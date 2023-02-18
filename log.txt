@@ -1,0 +1,40 @@
+At time 0 :
+Current tasks to dispatch:
+(5,1,4)  (7,1,6)  (10,1,4)  (1,2,5)  (4,2,5)  (6,2,7)  (8,2,4)  (2,3,4)  (3,3,6)  (9,3,4)  
+Queue situation:
+Queue 1 is closed!
+Queue 2 is closed!
+Queue 3 is closed!
+
+At time 1 :
+Current tasks to dispatch:
+(1,2,5)  (4,2,5)  (6,2,7)  (8,2,4)  (2,3,4)  (3,3,6)  (9,3,4)  
+Queue situation:
+Queue 1 {(5,1,4), waitingPeriod=4}
+Queue 2 {(7,1,6), waitingPeriod=6}
+Queue 3 {(10,1,4), waitingPeriod=4}
+
+At time 2 :
+Current tasks to dispatch:
+(2,3,4)  (3,3,6)  (9,3,4)  
+Queue situation:
+Queue 1 {(5,1,3)(1,2,5), waitingPeriod=8}
+Queue 2 {(7,1,5)(6,2,7), waitingPeriod=12}
+Queue 3 {(10,1,3)(4,2,5)(8,2,4), waitingPeriod=12}
+
+At time 3 :
+There are no more tasks to dispatch!
+Queue situation:
+Queue 1 {(5,1,2)(1,2,5)(2,3,4)(3,3,6), waitingPeriod=17}
+Queue 2 {(7,1,4)(6,2,7), waitingPeriod=11}
+Queue 3 {(10,1,2)(4,2,5)(8,2,4)(9,3,4), waitingPeriod=15}
+
+Simulation manager was interrupted and exiting!
+Queue 1 has an average waiting time of 3,000
+Queue 2 has an average waiting time of 4,500
+Queue 3 has an average waiting time of 4,000
+
+Average waiting time for the queues in total is 3,833
+
+Average service time for a task is: 4,900
+Peak hour for the simulation is time 3 with an average waiting time of 14,333 between all the queues
